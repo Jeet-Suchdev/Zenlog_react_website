@@ -24,7 +24,6 @@ function App() {
       .finally(() => setLoading(false));
   }, []);
 
-  // Scroll to top on route change for small screens
   useEffect(() => {
     if (window.innerWidth < 768) {
       window.scrollTo({ top: 0, behavior: "smooth" });
