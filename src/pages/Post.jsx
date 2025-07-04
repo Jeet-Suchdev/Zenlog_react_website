@@ -97,6 +97,7 @@ export default function Post() {
                   src={appwriteService.getFilePreview(post.featuredimage)}
                   alt={post.title}
                   className="w-full h-auto object-contain rounded-xl shadow transition-transform duration-300 md:rounded-2xl md:hover:scale-105"
+                  loading="lazy"
                 />
               </div>
             </div>

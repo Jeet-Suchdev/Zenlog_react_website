@@ -20,6 +20,7 @@ function PostCard({ $id, title, featuredimage, content, author, date }) {
             src={appwriteService.getFilePreview(featuredimage)}
             alt={title}
             className="absolute top-0 left-0 w-full h-full object-cover object-center rounded-t-3xl"
+            loading="lazy"
           />
         ) : (
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center text-[#76ABAE] text-3xl font-bold opacity-60 bg-[#222831] rounded-t-3xl">
