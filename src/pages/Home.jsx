@@ -72,7 +72,7 @@ function Home() {
               ) : (
                 <>
                   <h1 className="text-2xl md:text-3xl font-bold font-sans hover:text-[#76ABAE] mb-6">
-                    Login to read posts
+                    Login to Add posts
                   </h1>
                   <Link to="/login">
                     <button className="px-6 py-3 rounded-xl font-bold text-lg bg-[#76ABAE] text-[#222831] hover:bg-[#5e8e90] transition-colors duration-200">

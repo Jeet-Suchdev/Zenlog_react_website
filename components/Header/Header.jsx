@@ -62,17 +62,9 @@ function Header() {
               <li>
                 <button
                   onClick={() => navigate("/login")}
-                  className="text-lg font-bold px-4 py-2 rounded-xl bg-[#76ABAE] text-[#222831] hover:opacity-80 transition-colors duration-200"
-                >
-                  Log In
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => navigate("/signup")}
                   className="text-lg font-bold px-4 py-2 rounded-xl bg-bg-transparent text-[#76ABAE] border border-[#76ABAE] hover:bg-[#222831] transition-colors duration-200"
                 >
-                  Sign Up
+                  Log In
                 </button>
               </li>
             </>
@@ -141,21 +133,9 @@ function Header() {
                       window.scrollTo({ top: 0, behavior: "smooth" });
                       navigate("/login");
                     }}
-                    className="text-lg font-bold px-4 py-3 rounded-xl bg-[#76ABAE] text-[#222831] hover:opacity-80 transition-colors duration-200"
+                    className="text-lg font-bold px-4 py-2 rounded-xl bg-bg-transparent text-[#76ABAE] border border-[#76ABAE] hover:bg-[#222831] transition-colors duration-200"
                   >
                     Log In
-                  </button>
-                </li>
-                <li className="w-full flex justify-center">
-                  <button
-                    onClick={() => {
-                      setMenuOpen(false);
-                      window.scrollTo({ top: 0, behavior: "smooth" });
-                      navigate("/signup");
-                    }}
-                    className="text-lg font-bold px-4 py-3 rounded-xl bg-[#76ABAE] text-[#222831] hover:opacity-80 transition-colors duration-200"
-                  >
-                    Sign Up
                   </button>
                 </li>
               </>
