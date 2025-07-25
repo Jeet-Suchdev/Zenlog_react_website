@@ -4,7 +4,7 @@ import { Container, PostCard } from "../../components";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-function Home() {
+function YourPosts() {
   const [posts, setPosts] = useState([]);
   const authStatus = useSelector((state) => state.auth.status);
   const userData = useSelector((state) => state.auth.userData);
@@ -115,4 +115,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default YourPosts;
