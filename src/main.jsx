@@ -15,7 +15,7 @@ import AllPosts from "./pages/AllPosts.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/all-posts",
+    path: "/",
     element: <App />,
     children: [
       {
