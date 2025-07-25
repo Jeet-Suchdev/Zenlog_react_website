@@ -1,22 +1,3 @@
 /* index.css */
 
-@theme {
-  animation: {
-    /* Updated duration and timing function for a smoother feel */
-    slideDown: "slideDown 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards",
-    slideUp: "slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards",
-  },
-  keyframes: {
-    slideDown: {
-      from: { opacity: '0', transform: 'translateY(-20px)' },
-      to: { opacity: '1', transform: 'translateY(0)' },
-    },
-    slideUp: {
-      from: { opacity: '1', transform: 'translateY(0)' },
-      to: { opacity: '0', transform: 'translateY(-20px)' },
-    },
-  },
-}
-
-/* This single line imports all necessary Tailwind styles in v4 */
 @import "tailwindcss";
