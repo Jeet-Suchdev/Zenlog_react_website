@@ -10,8 +10,8 @@ function Header() {
   const menuRef = useRef(null);
 
   const navItems = [
-    { name: "Home", slug: "/", active: true },
-    { name: "All Posts", slug: "/all-posts", active: authStatus },
+    { name: "All Posts", slug: "/all-posts", active: true },
+    { name: "Your Posts", slug: "/", active: true },
     { name: "Add Post", slug: "/add-post", active: authStatus },
   ];
 
