@@ -61,7 +61,7 @@ export default function Post() {
   }
 
   return (
-    <div className="py-8 bg-[#222831] text-[#EEEEEE] min-h-screen font-sans px-2 flex items-center justify-center">
+    <div className="py-8 bg-[#222831] text-[#EEEEEE] min-h-screen font-sans px-6 flex items-center justify-center">
       <Container>
         {/* Back Arrow Button - always above the card, not inside */}
         <div className="w-full max-w-6xl mx-auto flex items-start">
